@@ -167,6 +167,7 @@ configurations {
 }
 
 dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
     // Support Library
     implementation "com.android.support:support-v4:${support_lib_version}"
     implementation "com.android.support:appcompat-v7:${support_lib_version}"
@@ -242,7 +243,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-intents:2.2.2'
     testImplementation 'junit:junit:4.12'
-    testImplementation "org.jetbrains.kotlin:kotlin-stdlib:1.3.61"
+    testImplementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:1.0.6"
     testImplementation 'com.taroid.knit:knit:0.1.2'
     testImplementation 'com.github.sys1yagi:kmockito:0.1.2'
