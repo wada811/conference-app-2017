@@ -25,7 +25,6 @@ def buildTime = new Date().format("yyyy-MM-dd'T'HH:mm'Z'", TimeZone.getTimeZone(
 
 android {
     compileSdkVersion compile_sdk_version as int
-    buildToolsVersion build_tools_version
     dataBinding {
         enabled = true
     }
